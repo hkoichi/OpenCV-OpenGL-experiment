@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/denjo/opengl/2-2.cpp
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+GL/glut.h
+-
+
