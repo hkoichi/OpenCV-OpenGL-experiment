@@ -2,25 +2,153 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="opengl" targetName="2-1" />
-      <config projectName="opengl" targetName="2-3-kadai" />
+      <config projectName="opengl" targetName="1-1-gaussian" />
       <config projectName="opengl" targetName="2-1-kadai" />
-      <config projectName="opengl" targetName="2-4-kadai" />
-      <config projectName="opengl" targetName="2-5-kadai" />
+      <config projectName="opengl" targetName="1-2-kadai" />
+      <config projectName="opengl" targetName="2-5-kadai3" />
+      <config projectName="opengl" targetName="2-5-kadai2" />
+      <config projectName="opengl" targetName="1-1-edge" />
       <config projectName="opengl" targetName="2-2-kadai" />
+      <config projectName="opengl" targetName="1-4_fixed" />
+      <config projectName="opengl" targetName="1-3-kadai" />
+      <config projectName="opengl" targetName="1-1" />
+      <config projectName="opengl" targetName="1-2" />
+      <config projectName="opengl" targetName="2-1" />
+      <config projectName="opengl" targetName="1-5-2" />
+      <config projectName="opengl" targetName="1-4-2" />
+      <config projectName="opengl" targetName="2-3-kadai" />
+      <config projectName="opengl" targetName="2-4-kadai" />
+      <config projectName="opengl" targetName="1-5" />
       <config projectName="opengl" targetName="2-4" />
       <config projectName="opengl" targetName="2-5" />
+      <config projectName="opengl" targetName="1-3" />
       <config projectName="opengl" targetName="2-2" />
+      <config projectName="opengl" targetName="1-4" />
       <config projectName="opengl" targetName="2-3" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8158cbb9-0c95-450c-b9be-7e521caa4b54" name="Default" comment="" />
+    <list default="true" id="8158cbb9-0c95-450c-b9be-7e521caa4b54" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fruits.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-1-edge.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-1-gaussian.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-1.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-2-kadai.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-3-kaidai.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-3.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-4-2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-4.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-4_fixed.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-5-2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-5.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-5-kadai2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2-5-kadai3.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kadai2-1.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2-5-kadai.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/2-1-kadai.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/2-1.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/2-2-kadai.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/2-2.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/2-3-kadai.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/2-3.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/2-4-kadai.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/2-4.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/2-5-kadai.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/flags.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/link.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5-kadai.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/2-5.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/flags.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Main.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/19" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/2-3" afterPath="$PROJECT_DIR$/cmake-build-debug/2-3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-5.cpp" afterPath="$PROJECT_DIR$/2-5.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1-kadai.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-1.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2-kadai.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-2.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3-kadai.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-3.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4-kadai.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-4.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/opengl.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/opengl.cbp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,29 +162,76 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.make" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/build.make">
+      <file leaf-file-name="1-1.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-756">
+            <state relative-caret-position="-108">
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-4_fixed.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-4_fixed.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#29#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-5-kadai.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-5-kadai.cpp">
+      <file leaf-file-name="2-5-kadai3.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-5-kadai3.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="738">
+              <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-4.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-4.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3060">
+              <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+              <folding>
+                <element signature="e#864#1071#0" expanded="false" />
+                <element signature="e#1073#1149#0" expanded="false" />
+                <element signature="e#1151#1359#0" expanded="false" />
+                <element signature="e#1361#1541#0" expanded="false" />
+                <element signature="e#1543#1991#0" expanded="false" />
+                <element signature="e#1993#2495#0" expanded="false" />
+                <element signature="e#4137#5686#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2-5-kadai2.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2-5-kadai2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3258">
+              <caret line="181" column="12" lean-forward="false" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#18#0" expanded="false" />
+                <element signature="e#2066#2246#0" expanded="false" />
+                <element signature="e#2248#2697#0" expanded="false" />
+                <element signature="e#2699#3202#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,10 +239,10 @@
       <file leaf-file-name="2-5.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-5.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="217" column="27" lean-forward="false" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+            <state relative-caret-position="810">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,43 +269,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-4-kadai.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-4-kadai.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-385">
-              <caret line="228" column="25" lean-forward="false" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2-2.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-2.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="132" column="28" lean-forward="false" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2-2-kadai.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2-2-kadai.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1123">
-              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,10 +287,14 @@
         <option value="$PROJECT_DIR$/2-2-kadai.cpp" />
         <option value="$PROJECT_DIR$/2-3.cpp" />
         <option value="$PROJECT_DIR$/2-3-kadai.cpp" />
-        <option value="$PROJECT_DIR$/2-4.cpp" />
         <option value="$PROJECT_DIR$/2-4-kadai.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/2-5.cpp" />
+        <option value="$PROJECT_DIR$/2-4.cpp" />
+        <option value="$PROJECT_DIR$/2-5-kadai.cpp" />
+        <option value="$PROJECT_DIR$/2-5-kadai3.cpp" />
+        <option value="$PROJECT_DIR$/1-1.cpp" />
+        <option value="$PROJECT_DIR$/1-1.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -160,10 +306,11 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="64" />
-    <option name="y" value="-11" />
+    <option name="y" value="-779" />
     <option name="width" value="1303" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -184,7 +331,7 @@
           <expand>
             <path>
               <item name="opengl" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="opengl" type="462c0819:PsiDirectoryNode" />
+              <item name="opencvgl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,18 +345,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/2-1-kadai" />
-      <recent name="$PROJECT_DIR$/kadai2_2" />
-      <recent name="$PROJECT_DIR$/kadai2_1_kadai" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/2-1-kadai" />
       <recent name="$PROJECT_DIR$/2-1" />
       <recent name="$PROJECT_DIR$/cmake-build-debug/kadai2_1_kadai" />
       <recent name="$PROJECT_DIR$/cmake-build-debug/kadai2_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/2-1-kadai" />
+      <recent name="$PROJECT_DIR$/kadai2_2" />
+      <recent name="$PROJECT_DIR$/kadai2_1_kadai" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,7 +371,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.2-5-kadai">
+  <component name="RunManager" selected="Application.2-5-kadai3">
+    <configuration name="1-1-edge" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-1-edge" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-1-edge">
+      <envs />
+    </configuration>
+    <configuration name="1-1-gaussian" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-1-gaussian" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-1-gaussian">
+      <envs />
+    </configuration>
+    <configuration name="1-1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-1">
+      <envs />
+    </configuration>
+    <configuration name="1-2-kadai" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-2-kadai" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-2-kadai">
+      <envs />
+    </configuration>
+    <configuration name="1-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-2">
+      <envs />
+    </configuration>
+    <configuration name="1-3-kadai" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-3-kadai" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-3-kadai">
+      <envs />
+    </configuration>
+    <configuration name="1-3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-3">
+      <envs />
+    </configuration>
+    <configuration name="1-4-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-4-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-4-2">
+      <envs />
+    </configuration>
+    <configuration name="1-4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-4">
+      <envs />
+    </configuration>
+    <configuration name="1-4_fixed" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-4_fixed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-4_fixed">
+      <envs />
+    </configuration>
+    <configuration name="1-5-2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-5-2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-5-2">
+      <envs />
+    </configuration>
+    <configuration name="1-5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="1-5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="1-5">
+      <envs />
+    </configuration>
     <configuration name="2-1-kadai" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="2-1-kadai" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="2-1-kadai">
       <envs />
     </configuration>
@@ -249,7 +432,10 @@
     <configuration name="2-4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="2-4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="2-4">
       <envs />
     </configuration>
-    <configuration name="2-5-kadai" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="2-5-kadai" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="2-5-kadai">
+    <configuration name="2-5-kadai2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="2-5-kadai2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="2-5-kadai2">
+      <envs />
+    </configuration>
+    <configuration name="2-5-kadai3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="2-5-kadai3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="2-5-kadai3">
       <envs />
     </configuration>
     <configuration name="2-5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opengl" TARGET_NAME="2-5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opengl" RUN_TARGET_NAME="2-5">
@@ -258,18 +444,31 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <list size="11">
+    <list size="24">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.2-1-kadai" />
-      <item index="2" class="java.lang.String" itemvalue="Application.2-2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.2-2-kadai" />
-      <item index="4" class="java.lang.String" itemvalue="Application.2-3" />
-      <item index="5" class="java.lang.String" itemvalue="Application.2-3-kadai" />
-      <item index="6" class="java.lang.String" itemvalue="Application.2-4" />
-      <item index="7" class="java.lang.String" itemvalue="Application.2-4-kadai" />
-      <item index="8" class="java.lang.String" itemvalue="Application.2-5" />
-      <item index="9" class="java.lang.String" itemvalue="Application.2-5-kadai" />
-      <item index="10" class="java.lang.String" itemvalue="Application.2-1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.1-1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.1-1-edge" />
+      <item index="3" class="java.lang.String" itemvalue="Application.1-1-gaussian" />
+      <item index="4" class="java.lang.String" itemvalue="Application.1-2" />
+      <item index="5" class="java.lang.String" itemvalue="Application.1-2-kadai" />
+      <item index="6" class="java.lang.String" itemvalue="Application.1-3" />
+      <item index="7" class="java.lang.String" itemvalue="Application.1-3-kadai" />
+      <item index="8" class="java.lang.String" itemvalue="Application.1-4" />
+      <item index="9" class="java.lang.String" itemvalue="Application.1-4-2" />
+      <item index="10" class="java.lang.String" itemvalue="Application.1-4_fixed" />
+      <item index="11" class="java.lang.String" itemvalue="Application.1-5" />
+      <item index="12" class="java.lang.String" itemvalue="Application.1-5-2" />
+      <item index="13" class="java.lang.String" itemvalue="Application.2-1" />
+      <item index="14" class="java.lang.String" itemvalue="Application.2-1-kadai" />
+      <item index="15" class="java.lang.String" itemvalue="Application.2-2" />
+      <item index="16" class="java.lang.String" itemvalue="Application.2-2-kadai" />
+      <item index="17" class="java.lang.String" itemvalue="Application.2-3" />
+      <item index="18" class="java.lang.String" itemvalue="Application.2-3-kadai" />
+      <item index="19" class="java.lang.String" itemvalue="Application.2-4" />
+      <item index="20" class="java.lang.String" itemvalue="Application.2-4-kadai" />
+      <item index="21" class="java.lang.String" itemvalue="Application.2-5" />
+      <item index="22" class="java.lang.String" itemvalue="Application.2-5-kadai2" />
+      <item index="23" class="java.lang.String" itemvalue="Application.2-5-kadai3" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -287,35 +486,36 @@
       <updated>1509001119799</updated>
       <workItem from="1509001121099" duration="3810000" />
       <workItem from="1509332834925" duration="1509000" />
-      <workItem from="1509334353829" duration="14798000" />
+      <workItem from="1509334353829" duration="14930000" />
+      <workItem from="1509421728732" duration="6092000" />
+      <workItem from="1509427826491" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20117000" />
+    <option name="totallyTimeSpent" value="26438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-779" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32784432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -332,11 +532,150 @@
           <url>file://$PROJECT_DIR$/2-4-kadai.cpp</url>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2-4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+          <folding>
+            <element signature="e#864#1071#0" expanded="false" />
+            <element signature="e#1073#1149#0" expanded="false" />
+            <element signature="e#1151#1359#0" expanded="false" />
+            <element signature="e#1361#1541#0" expanded="false" />
+            <element signature="e#1543#1991#0" expanded="false" />
+            <element signature="e#1993#2495#0" expanded="false" />
+            <element signature="e#4137#5686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-5-kadai2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="12" lean-forward="false" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#2066#2246#0" expanded="false" />
+            <element signature="e#2248#2697#0" expanded="false" />
+            <element signature="e#2699#3202#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/build.make">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-5-kadai2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#2066#2246#0" expanded="false" />
+            <element signature="e#2248#2697#0" expanded="false" />
+            <element signature="e#2699#3202#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3906">
+          <caret line="217" column="27" lean-forward="false" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flower3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-4-kadai.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="228" column="25" lean-forward="false" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="132" column="28" lean-forward="false" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-2-kadai.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -349,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -377,9 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -406,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -430,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,19 +791,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-4.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-4-kadai.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
+        <state relative-caret-position="4104">
           <caret line="228" column="25" lean-forward="false" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -488,29 +803,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2-5.dir/build.make">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2-2-kadai.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
+        <state relative-caret-position="2538">
           <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2-2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="2376">
           <caret line="132" column="28" lean-forward="false" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,28 +837,77 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-5-kadai.cpp">
+    <entry file="file://$PROJECT_DIR$/2-4.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="3060">
+          <caret line="170" column="22" lean-forward="false" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
+          <folding>
+            <element signature="e#864#1071#0" expanded="false" />
+            <element signature="e#1073#1149#0" expanded="false" />
+            <element signature="e#1151#1359#0" expanded="false" />
+            <element signature="e#1361#1541#0" expanded="false" />
+            <element signature="e#1543#1991#0" expanded="false" />
+            <element signature="e#1993#2495#0" expanded="false" />
+            <element signature="e#4137#5686#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2-5.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="217" column="27" lean-forward="false" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+        <state relative-caret-position="810">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-5-kadai2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3258">
+          <caret line="181" column="12" lean-forward="false" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+            <element signature="e#2066#2246#0" expanded="false" />
+            <element signature="e#2248#2697#0" expanded="false" />
+            <element signature="e#2699#3202#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-4_fixed.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2-5-kadai3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="52" column="25" lean-forward="false" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding />
         </state>
       </provider>

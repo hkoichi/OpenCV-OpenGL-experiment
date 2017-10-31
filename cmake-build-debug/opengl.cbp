@@ -8,38 +8,18 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\opencv-2.4.9\;CMake Files\..\opencv-2.4.9\release\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-1">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+			<Target title="1-5-2">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-5-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -76,15 +56,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-5-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2-1/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+			<Target title="1-5-2/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-5-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -121,645 +101,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-1-kadai">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-1-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1-kadai"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-1-kadai/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-1-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1-kadai/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-2-kadai">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-2-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2-kadai"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-2-kadai/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-2-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2-kadai/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-3">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-3/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-3-kadai">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-3-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3-kadai"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-3-kadai/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-3-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3-kadai/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-4">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-4/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-4-kadai">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-4-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4-kadai"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-4-kadai/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-4-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4-kadai/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-2">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2-2/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/denjo/opencv-2.4.9/release"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
-					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-5-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="2-5">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -796,15 +146,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="2-5/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -841,15 +191,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2-5-kadai">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-5-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+			<Target title="2-2">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -886,15 +236,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5-kadai"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="2-5-kadai/fast">
-				<Option output="/home/denjo/opengl/cmake-build-debug/2-5-kadai" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/denjo/opengl/cmake-build-debug"/>
+			<Target title="2-2/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -931,53 +281,1912 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5-kadai/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opengl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-5">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-5/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-3-kadai">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-3-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3-kadai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-3-kadai/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-3-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3-kadai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-3">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-3/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-2-kadai">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-2-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2-kadai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-2-kadai/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-2-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-2-kadai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-1">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-1/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-5-kadai2">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-5-kadai2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5-kadai2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-5-kadai2/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-5-kadai2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5-kadai2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-4">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-4/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-3">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-3/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-4">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-4/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-1-kadai">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-1-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1-kadai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-1-kadai/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-1-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1-kadai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-1-edge">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-1-edge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-1-edge"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-1-edge/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-1-edge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-1-edge/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-4-kadai">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-4-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4-kadai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-4-kadai/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-4-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-4-kadai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-1">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-1/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-5-kadai3">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-5-kadai3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5-kadai3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2-5-kadai3/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/2-5-kadai3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 2-5-kadai3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-1-gaussian">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-1-gaussian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-1-gaussian"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-1-gaussian/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-1-gaussian" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-1-gaussian/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-2">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-2/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-2-kadai">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-2-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-2-kadai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-2-kadai/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-2-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-2-kadai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-3-kadai">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-3-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-3-kadai"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-3-kadai/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-3-kadai" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-3-kadai/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-4-2">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-4-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-4-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-4-2/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-4-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-4-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-4_fixed">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-4_fixed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-4_fixed"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1-4_fixed/fast">
+				<Option output="/home/denjo/opencvgl/cmake-build-debug/1-4_fixed" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denjo/opencvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denjo/opencv-2.4.9/release"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/include/opencv"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/core/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/flann/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/imgproc/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/highgui/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/features2d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/calib3d/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ml/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/video/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/legacy/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/objdetect/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/photo/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/gpu/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ocl/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/nonfree/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/contrib/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/stitching/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/superres/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/ts/include"/>
+					<Add directory="/home/denjo/opencv-2.4.9/modules/videostab/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 1-4_fixed/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/denjo/opencvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/denjo/opengl/2-1-kadai.cpp">
+		<Unit filename="/home/denjo/opencvgl/1-1-edge.cpp">
+			<Option target="1-1-edge"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-1-gaussian.cpp">
+			<Option target="1-1-gaussian"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-1.cpp">
+			<Option target="1-1"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-2-kadai.cpp">
+			<Option target="1-2-kadai"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-2.cpp">
+			<Option target="1-2"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-3-kaidai.cpp">
+			<Option target="1-3-kadai"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-3.cpp">
+			<Option target="1-3"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-4-2.cpp">
+			<Option target="1-4-2"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-4.cpp">
+			<Option target="1-4"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-4_fixed.cpp">
+			<Option target="1-4_fixed"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-5-2.cpp">
+			<Option target="1-5-2"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/1-5.cpp">
+			<Option target="1-5"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/2-1-kadai.cpp">
 			<Option target="2-1-kadai"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-1.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-1.cpp">
 			<Option target="2-1"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-2-kadai.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-2-kadai.cpp">
 			<Option target="2-2-kadai"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-2.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-2.cpp">
 			<Option target="2-2"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-3-kadai.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-3-kadai.cpp">
 			<Option target="2-3-kadai"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-3.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-3.cpp">
 			<Option target="2-3"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-4-kadai.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-4-kadai.cpp">
 			<Option target="2-4-kadai"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-4.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-4.cpp">
 			<Option target="2-4"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-5-kadai.cpp">
-			<Option target="2-5-kadai"/>
+		<Unit filename="/home/denjo/opencvgl/2-5-kadai2.cpp">
+			<Option target="2-5-kadai2"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/2-5.cpp">
+		<Unit filename="/home/denjo/opencvgl/2-5-kadai3.cpp">
+			<Option target="2-5-kadai3"/>
+		</Unit>
+		<Unit filename="/home/denjo/opencvgl/2-5.cpp">
 			<Option target="2-5"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/CMakeLists.txt">
+		<Unit filename="/home/denjo/opencvgl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/../opencv-2.4.9/release/OpenCVConfig-version.cmake">
+		<Unit filename="/home/denjo/opencvgl/../opencv-2.4.9/release/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\opencv-2.4.9\release\"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/../opencv-2.4.9/release/OpenCVConfig.cmake">
+		<Unit filename="/home/denjo/opencvgl/../opencv-2.4.9/release/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\opencv-2.4.9\release\"/>
 		</Unit>
-		<Unit filename="/home/denjo/opengl/../opencv-2.4.9/release/OpenCVModules.cmake">
+		<Unit filename="/home/denjo/opencvgl/../opencv-2.4.9/release/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\opencv-2.4.9\release\"/>
 		</Unit>
 	</Project>
