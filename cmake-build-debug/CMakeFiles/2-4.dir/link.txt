@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/2-4.dir/2-4.cpp.o  -o 2-4 -lglut -lXmu -lXi -lGLU -lGL 

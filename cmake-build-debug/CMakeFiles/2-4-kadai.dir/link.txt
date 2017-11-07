@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/2-4-kadai.dir/2-4-kadai.cpp.o  -o 2-4-kadai -lglut -lXmu -lXi -lGLU -lGL 

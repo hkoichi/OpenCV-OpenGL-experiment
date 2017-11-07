@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/2-1.dir/2-1.cpp.o  -o 2-1 -lglut -lXmu -lXi -lGLU -lGL 
