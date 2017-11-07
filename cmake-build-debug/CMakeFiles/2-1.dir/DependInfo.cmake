@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/denjo/opengl/2-1.cpp" "/home/denjo/opengl/cmake-build-debug/CMakeFiles/2-1.dir/2-1.cpp.o"
+  "/home/denjo/opencvgl/2-1.cpp" "/home/denjo/opencvgl/cmake-build-debug/CMakeFiles/2-1.dir/2-1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

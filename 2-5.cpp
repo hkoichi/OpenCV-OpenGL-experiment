@@ -227,7 +227,7 @@ void draw_pyramid(){
 }
 
 void set_texture(){
-    char *inputFileNames[3] = {"/home/denjo/opengl/flower1.jpg", "/home/denjo/opengl/flower2.jpg", "/home/denjo/opengl/flower3.jpg"};
+    char *inputFileNames[3] = {"/home/denjo/opencvgl/flower1.jpg", "/home/denjo/opencvgl/flower2.jpg", "/home/denjo/opencvgl/flower3.jpg"};
     for(int i = 0; i < 3; i++){
         cv::Mat input = cv::imread(inputFileNames[i], 1);
         // BGR -> RGBの変換

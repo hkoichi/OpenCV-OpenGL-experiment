@@ -54,304 +54,45 @@ RM = /home/denjo/src/clion-2017.2.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/denjo/opengl
+CMAKE_SOURCE_DIR = /home/denjo/opencvgl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/denjo/opengl/cmake-build-debug
+CMAKE_BINARY_DIR = /home/denjo/opencvgl/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/2-1.dir
+# Target rules for target CMakeFiles/1-5-2.dir
 
 # All Build rule for target.
-CMakeFiles/2-1.dir/all:
-	$(MAKE) -f CMakeFiles/2-1.dir/build.make CMakeFiles/2-1.dir/depend
-	$(MAKE) -f CMakeFiles/2-1.dir/build.make CMakeFiles/2-1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 2-1"
-.PHONY : CMakeFiles/2-1.dir/all
+CMakeFiles/1-5-2.dir/all:
+	$(MAKE) -f CMakeFiles/1-5-2.dir/build.make CMakeFiles/1-5-2.dir/depend
+	$(MAKE) -f CMakeFiles/1-5-2.dir/build.make CMakeFiles/1-5-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 1-5-2"
+.PHONY : CMakeFiles/1-5-2.dir/all
 
 # Include target in all.
-all: CMakeFiles/2-1.dir/all
+all: CMakeFiles/1-5-2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/2-1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-1.dir/rule
+CMakeFiles/1-5-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-5-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-5-2.dir/rule
 
 # Convenience name for target.
-2-1: CMakeFiles/2-1.dir/rule
+1-5-2: CMakeFiles/1-5-2.dir/rule
 
-.PHONY : 2-1
-
-# clean rule for target.
-CMakeFiles/2-1.dir/clean:
-	$(MAKE) -f CMakeFiles/2-1.dir/build.make CMakeFiles/2-1.dir/clean
-.PHONY : CMakeFiles/2-1.dir/clean
+.PHONY : 1-5-2
 
 # clean rule for target.
-clean: CMakeFiles/2-1.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-1-kadai.dir
-
-# All Build rule for target.
-CMakeFiles/2-1-kadai.dir/all:
-	$(MAKE) -f CMakeFiles/2-1-kadai.dir/build.make CMakeFiles/2-1-kadai.dir/depend
-	$(MAKE) -f CMakeFiles/2-1-kadai.dir/build.make CMakeFiles/2-1-kadai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 2-1-kadai"
-.PHONY : CMakeFiles/2-1-kadai.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-1-kadai.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-1-kadai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-1-kadai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-1-kadai.dir/rule
-
-# Convenience name for target.
-2-1-kadai: CMakeFiles/2-1-kadai.dir/rule
-
-.PHONY : 2-1-kadai
+CMakeFiles/1-5-2.dir/clean:
+	$(MAKE) -f CMakeFiles/1-5-2.dir/build.make CMakeFiles/1-5-2.dir/clean
+.PHONY : CMakeFiles/1-5-2.dir/clean
 
 # clean rule for target.
-CMakeFiles/2-1-kadai.dir/clean:
-	$(MAKE) -f CMakeFiles/2-1-kadai.dir/build.make CMakeFiles/2-1-kadai.dir/clean
-.PHONY : CMakeFiles/2-1-kadai.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-1-kadai.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-2-kadai.dir
-
-# All Build rule for target.
-CMakeFiles/2-2-kadai.dir/all:
-	$(MAKE) -f CMakeFiles/2-2-kadai.dir/build.make CMakeFiles/2-2-kadai.dir/depend
-	$(MAKE) -f CMakeFiles/2-2-kadai.dir/build.make CMakeFiles/2-2-kadai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 2-2-kadai"
-.PHONY : CMakeFiles/2-2-kadai.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-2-kadai.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-2-kadai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-2-kadai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-2-kadai.dir/rule
-
-# Convenience name for target.
-2-2-kadai: CMakeFiles/2-2-kadai.dir/rule
-
-.PHONY : 2-2-kadai
-
-# clean rule for target.
-CMakeFiles/2-2-kadai.dir/clean:
-	$(MAKE) -f CMakeFiles/2-2-kadai.dir/build.make CMakeFiles/2-2-kadai.dir/clean
-.PHONY : CMakeFiles/2-2-kadai.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-2-kadai.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-3.dir
-
-# All Build rule for target.
-CMakeFiles/2-3.dir/all:
-	$(MAKE) -f CMakeFiles/2-3.dir/build.make CMakeFiles/2-3.dir/depend
-	$(MAKE) -f CMakeFiles/2-3.dir/build.make CMakeFiles/2-3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 2-3"
-.PHONY : CMakeFiles/2-3.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-3.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-3.dir/rule
-
-# Convenience name for target.
-2-3: CMakeFiles/2-3.dir/rule
-
-.PHONY : 2-3
-
-# clean rule for target.
-CMakeFiles/2-3.dir/clean:
-	$(MAKE) -f CMakeFiles/2-3.dir/build.make CMakeFiles/2-3.dir/clean
-.PHONY : CMakeFiles/2-3.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-3.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-3-kadai.dir
-
-# All Build rule for target.
-CMakeFiles/2-3-kadai.dir/all:
-	$(MAKE) -f CMakeFiles/2-3-kadai.dir/build.make CMakeFiles/2-3-kadai.dir/depend
-	$(MAKE) -f CMakeFiles/2-3-kadai.dir/build.make CMakeFiles/2-3-kadai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 2-3-kadai"
-.PHONY : CMakeFiles/2-3-kadai.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-3-kadai.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-3-kadai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-3-kadai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-3-kadai.dir/rule
-
-# Convenience name for target.
-2-3-kadai: CMakeFiles/2-3-kadai.dir/rule
-
-.PHONY : 2-3-kadai
-
-# clean rule for target.
-CMakeFiles/2-3-kadai.dir/clean:
-	$(MAKE) -f CMakeFiles/2-3-kadai.dir/build.make CMakeFiles/2-3-kadai.dir/clean
-.PHONY : CMakeFiles/2-3-kadai.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-3-kadai.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-4.dir
-
-# All Build rule for target.
-CMakeFiles/2-4.dir/all:
-	$(MAKE) -f CMakeFiles/2-4.dir/build.make CMakeFiles/2-4.dir/depend
-	$(MAKE) -f CMakeFiles/2-4.dir/build.make CMakeFiles/2-4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 2-4"
-.PHONY : CMakeFiles/2-4.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-4.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-4.dir/rule
-
-# Convenience name for target.
-2-4: CMakeFiles/2-4.dir/rule
-
-.PHONY : 2-4
-
-# clean rule for target.
-CMakeFiles/2-4.dir/clean:
-	$(MAKE) -f CMakeFiles/2-4.dir/build.make CMakeFiles/2-4.dir/clean
-.PHONY : CMakeFiles/2-4.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-4.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-4-kadai.dir
-
-# All Build rule for target.
-CMakeFiles/2-4-kadai.dir/all:
-	$(MAKE) -f CMakeFiles/2-4-kadai.dir/build.make CMakeFiles/2-4-kadai.dir/depend
-	$(MAKE) -f CMakeFiles/2-4-kadai.dir/build.make CMakeFiles/2-4-kadai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 2-4-kadai"
-.PHONY : CMakeFiles/2-4-kadai.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-4-kadai.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-4-kadai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-4-kadai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-4-kadai.dir/rule
-
-# Convenience name for target.
-2-4-kadai: CMakeFiles/2-4-kadai.dir/rule
-
-.PHONY : 2-4-kadai
-
-# clean rule for target.
-CMakeFiles/2-4-kadai.dir/clean:
-	$(MAKE) -f CMakeFiles/2-4-kadai.dir/build.make CMakeFiles/2-4-kadai.dir/clean
-.PHONY : CMakeFiles/2-4-kadai.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-4-kadai.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/2-2.dir
-
-# All Build rule for target.
-CMakeFiles/2-2.dir/all:
-	$(MAKE) -f CMakeFiles/2-2.dir/build.make CMakeFiles/2-2.dir/depend
-	$(MAKE) -f CMakeFiles/2-2.dir/build.make CMakeFiles/2-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 2-2"
-.PHONY : CMakeFiles/2-2.dir/all
-
-# Include target in all.
-all: CMakeFiles/2-2.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/2-2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-2.dir/rule
-
-# Convenience name for target.
-2-2: CMakeFiles/2-2.dir/rule
-
-.PHONY : 2-2
-
-# clean rule for target.
-CMakeFiles/2-2.dir/clean:
-	$(MAKE) -f CMakeFiles/2-2.dir/build.make CMakeFiles/2-2.dir/clean
-.PHONY : CMakeFiles/2-2.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/2-2.dir/clean
+clean: CMakeFiles/1-5-2.dir/clean
 
 .PHONY : clean
 
@@ -362,7 +103,7 @@ clean: CMakeFiles/2-2.dir/clean
 CMakeFiles/2-5.dir/all:
 	$(MAKE) -f CMakeFiles/2-5.dir/build.make CMakeFiles/2-5.dir/depend
 	$(MAKE) -f CMakeFiles/2-5.dir/build.make CMakeFiles/2-5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 2-5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target 2-5"
 .PHONY : CMakeFiles/2-5.dir/all
 
 # Include target in all.
@@ -372,9 +113,9 @@ all: CMakeFiles/2-5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2-5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/2-5.dir/rule
 
 # Convenience name for target.
@@ -393,39 +134,779 @@ clean: CMakeFiles/2-5.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/2-5-kadai.dir
+# Target rules for target CMakeFiles/2-2.dir
 
 # All Build rule for target.
-CMakeFiles/2-5-kadai.dir/all:
-	$(MAKE) -f CMakeFiles/2-5-kadai.dir/build.make CMakeFiles/2-5-kadai.dir/depend
-	$(MAKE) -f CMakeFiles/2-5-kadai.dir/build.make CMakeFiles/2-5-kadai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opengl/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 2-5-kadai"
-.PHONY : CMakeFiles/2-5-kadai.dir/all
+CMakeFiles/2-2.dir/all:
+	$(MAKE) -f CMakeFiles/2-2.dir/build.make CMakeFiles/2-2.dir/depend
+	$(MAKE) -f CMakeFiles/2-2.dir/build.make CMakeFiles/2-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target 2-2"
+.PHONY : CMakeFiles/2-2.dir/all
 
 # Include target in all.
-all: CMakeFiles/2-5-kadai.dir/all
+all: CMakeFiles/2-2.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/2-5-kadai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-5-kadai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opengl/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/2-5-kadai.dir/rule
+CMakeFiles/2-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-2.dir/rule
 
 # Convenience name for target.
-2-5-kadai: CMakeFiles/2-5-kadai.dir/rule
+2-2: CMakeFiles/2-2.dir/rule
 
-.PHONY : 2-5-kadai
-
-# clean rule for target.
-CMakeFiles/2-5-kadai.dir/clean:
-	$(MAKE) -f CMakeFiles/2-5-kadai.dir/build.make CMakeFiles/2-5-kadai.dir/clean
-.PHONY : CMakeFiles/2-5-kadai.dir/clean
+.PHONY : 2-2
 
 # clean rule for target.
-clean: CMakeFiles/2-5-kadai.dir/clean
+CMakeFiles/2-2.dir/clean:
+	$(MAKE) -f CMakeFiles/2-2.dir/build.make CMakeFiles/2-2.dir/clean
+.PHONY : CMakeFiles/2-2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-5.dir
+
+# All Build rule for target.
+CMakeFiles/1-5.dir/all:
+	$(MAKE) -f CMakeFiles/1-5.dir/build.make CMakeFiles/1-5.dir/depend
+	$(MAKE) -f CMakeFiles/1-5.dir/build.make CMakeFiles/1-5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 1-5"
+.PHONY : CMakeFiles/1-5.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-5.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-5.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-5.dir/rule
+
+# Convenience name for target.
+1-5: CMakeFiles/1-5.dir/rule
+
+.PHONY : 1-5
+
+# clean rule for target.
+CMakeFiles/1-5.dir/clean:
+	$(MAKE) -f CMakeFiles/1-5.dir/build.make CMakeFiles/1-5.dir/clean
+.PHONY : CMakeFiles/1-5.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-5.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-3-kadai.dir
+
+# All Build rule for target.
+CMakeFiles/2-3-kadai.dir/all:
+	$(MAKE) -f CMakeFiles/2-3-kadai.dir/build.make CMakeFiles/2-3-kadai.dir/depend
+	$(MAKE) -f CMakeFiles/2-3-kadai.dir/build.make CMakeFiles/2-3-kadai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target 2-3-kadai"
+.PHONY : CMakeFiles/2-3-kadai.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-3-kadai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-3-kadai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-3-kadai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-3-kadai.dir/rule
+
+# Convenience name for target.
+2-3-kadai: CMakeFiles/2-3-kadai.dir/rule
+
+.PHONY : 2-3-kadai
+
+# clean rule for target.
+CMakeFiles/2-3-kadai.dir/clean:
+	$(MAKE) -f CMakeFiles/2-3-kadai.dir/build.make CMakeFiles/2-3-kadai.dir/clean
+.PHONY : CMakeFiles/2-3-kadai.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-3-kadai.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-3.dir
+
+# All Build rule for target.
+CMakeFiles/2-3.dir/all:
+	$(MAKE) -f CMakeFiles/2-3.dir/build.make CMakeFiles/2-3.dir/depend
+	$(MAKE) -f CMakeFiles/2-3.dir/build.make CMakeFiles/2-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target 2-3"
+.PHONY : CMakeFiles/2-3.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-3.dir/rule
+
+# Convenience name for target.
+2-3: CMakeFiles/2-3.dir/rule
+
+.PHONY : 2-3
+
+# clean rule for target.
+CMakeFiles/2-3.dir/clean:
+	$(MAKE) -f CMakeFiles/2-3.dir/build.make CMakeFiles/2-3.dir/clean
+.PHONY : CMakeFiles/2-3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-2-kadai.dir
+
+# All Build rule for target.
+CMakeFiles/2-2-kadai.dir/all:
+	$(MAKE) -f CMakeFiles/2-2-kadai.dir/build.make CMakeFiles/2-2-kadai.dir/depend
+	$(MAKE) -f CMakeFiles/2-2-kadai.dir/build.make CMakeFiles/2-2-kadai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target 2-2-kadai"
+.PHONY : CMakeFiles/2-2-kadai.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-2-kadai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-2-kadai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-2-kadai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-2-kadai.dir/rule
+
+# Convenience name for target.
+2-2-kadai: CMakeFiles/2-2-kadai.dir/rule
+
+.PHONY : 2-2-kadai
+
+# clean rule for target.
+CMakeFiles/2-2-kadai.dir/clean:
+	$(MAKE) -f CMakeFiles/2-2-kadai.dir/build.make CMakeFiles/2-2-kadai.dir/clean
+.PHONY : CMakeFiles/2-2-kadai.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-2-kadai.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-1.dir
+
+# All Build rule for target.
+CMakeFiles/1-1.dir/all:
+	$(MAKE) -f CMakeFiles/1-1.dir/build.make CMakeFiles/1-1.dir/depend
+	$(MAKE) -f CMakeFiles/1-1.dir/build.make CMakeFiles/1-1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 1-1"
+.PHONY : CMakeFiles/1-1.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-1.dir/rule
+
+# Convenience name for target.
+1-1: CMakeFiles/1-1.dir/rule
+
+.PHONY : 1-1
+
+# clean rule for target.
+CMakeFiles/1-1.dir/clean:
+	$(MAKE) -f CMakeFiles/1-1.dir/build.make CMakeFiles/1-1.dir/clean
+.PHONY : CMakeFiles/1-1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-5-kadai2.dir
+
+# All Build rule for target.
+CMakeFiles/2-5-kadai2.dir/all:
+	$(MAKE) -f CMakeFiles/2-5-kadai2.dir/build.make CMakeFiles/2-5-kadai2.dir/depend
+	$(MAKE) -f CMakeFiles/2-5-kadai2.dir/build.make CMakeFiles/2-5-kadai2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target 2-5-kadai2"
+.PHONY : CMakeFiles/2-5-kadai2.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-5-kadai2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-5-kadai2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-5-kadai2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-5-kadai2.dir/rule
+
+# Convenience name for target.
+2-5-kadai2: CMakeFiles/2-5-kadai2.dir/rule
+
+.PHONY : 2-5-kadai2
+
+# clean rule for target.
+CMakeFiles/2-5-kadai2.dir/clean:
+	$(MAKE) -f CMakeFiles/2-5-kadai2.dir/build.make CMakeFiles/2-5-kadai2.dir/clean
+.PHONY : CMakeFiles/2-5-kadai2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-5-kadai2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-4.dir
+
+# All Build rule for target.
+CMakeFiles/1-4.dir/all:
+	$(MAKE) -f CMakeFiles/1-4.dir/build.make CMakeFiles/1-4.dir/depend
+	$(MAKE) -f CMakeFiles/1-4.dir/build.make CMakeFiles/1-4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 1-4"
+.PHONY : CMakeFiles/1-4.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-4.dir/rule
+
+# Convenience name for target.
+1-4: CMakeFiles/1-4.dir/rule
+
+.PHONY : 1-4
+
+# clean rule for target.
+CMakeFiles/1-4.dir/clean:
+	$(MAKE) -f CMakeFiles/1-4.dir/build.make CMakeFiles/1-4.dir/clean
+.PHONY : CMakeFiles/1-4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-3.dir
+
+# All Build rule for target.
+CMakeFiles/1-3.dir/all:
+	$(MAKE) -f CMakeFiles/1-3.dir/build.make CMakeFiles/1-3.dir/depend
+	$(MAKE) -f CMakeFiles/1-3.dir/build.make CMakeFiles/1-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 1-3"
+.PHONY : CMakeFiles/1-3.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-3.dir/rule
+
+# Convenience name for target.
+1-3: CMakeFiles/1-3.dir/rule
+
+.PHONY : 1-3
+
+# clean rule for target.
+CMakeFiles/1-3.dir/clean:
+	$(MAKE) -f CMakeFiles/1-3.dir/build.make CMakeFiles/1-3.dir/clean
+.PHONY : CMakeFiles/1-3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-4.dir
+
+# All Build rule for target.
+CMakeFiles/2-4.dir/all:
+	$(MAKE) -f CMakeFiles/2-4.dir/build.make CMakeFiles/2-4.dir/depend
+	$(MAKE) -f CMakeFiles/2-4.dir/build.make CMakeFiles/2-4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target 2-4"
+.PHONY : CMakeFiles/2-4.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-4.dir/rule
+
+# Convenience name for target.
+2-4: CMakeFiles/2-4.dir/rule
+
+.PHONY : 2-4
+
+# clean rule for target.
+CMakeFiles/2-4.dir/clean:
+	$(MAKE) -f CMakeFiles/2-4.dir/build.make CMakeFiles/2-4.dir/clean
+.PHONY : CMakeFiles/2-4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-1-kadai.dir
+
+# All Build rule for target.
+CMakeFiles/2-1-kadai.dir/all:
+	$(MAKE) -f CMakeFiles/2-1-kadai.dir/build.make CMakeFiles/2-1-kadai.dir/depend
+	$(MAKE) -f CMakeFiles/2-1-kadai.dir/build.make CMakeFiles/2-1-kadai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target 2-1-kadai"
+.PHONY : CMakeFiles/2-1-kadai.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-1-kadai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-1-kadai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-1-kadai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-1-kadai.dir/rule
+
+# Convenience name for target.
+2-1-kadai: CMakeFiles/2-1-kadai.dir/rule
+
+.PHONY : 2-1-kadai
+
+# clean rule for target.
+CMakeFiles/2-1-kadai.dir/clean:
+	$(MAKE) -f CMakeFiles/2-1-kadai.dir/build.make CMakeFiles/2-1-kadai.dir/clean
+.PHONY : CMakeFiles/2-1-kadai.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-1-kadai.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-1-edge.dir
+
+# All Build rule for target.
+CMakeFiles/1-1-edge.dir/all:
+	$(MAKE) -f CMakeFiles/1-1-edge.dir/build.make CMakeFiles/1-1-edge.dir/depend
+	$(MAKE) -f CMakeFiles/1-1-edge.dir/build.make CMakeFiles/1-1-edge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 1-1-edge"
+.PHONY : CMakeFiles/1-1-edge.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-1-edge.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-1-edge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-1-edge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-1-edge.dir/rule
+
+# Convenience name for target.
+1-1-edge: CMakeFiles/1-1-edge.dir/rule
+
+.PHONY : 1-1-edge
+
+# clean rule for target.
+CMakeFiles/1-1-edge.dir/clean:
+	$(MAKE) -f CMakeFiles/1-1-edge.dir/build.make CMakeFiles/1-1-edge.dir/clean
+.PHONY : CMakeFiles/1-1-edge.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-1-edge.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-4-kadai.dir
+
+# All Build rule for target.
+CMakeFiles/2-4-kadai.dir/all:
+	$(MAKE) -f CMakeFiles/2-4-kadai.dir/build.make CMakeFiles/2-4-kadai.dir/depend
+	$(MAKE) -f CMakeFiles/2-4-kadai.dir/build.make CMakeFiles/2-4-kadai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target 2-4-kadai"
+.PHONY : CMakeFiles/2-4-kadai.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-4-kadai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-4-kadai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-4-kadai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-4-kadai.dir/rule
+
+# Convenience name for target.
+2-4-kadai: CMakeFiles/2-4-kadai.dir/rule
+
+.PHONY : 2-4-kadai
+
+# clean rule for target.
+CMakeFiles/2-4-kadai.dir/clean:
+	$(MAKE) -f CMakeFiles/2-4-kadai.dir/build.make CMakeFiles/2-4-kadai.dir/clean
+.PHONY : CMakeFiles/2-4-kadai.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-4-kadai.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-1.dir
+
+# All Build rule for target.
+CMakeFiles/2-1.dir/all:
+	$(MAKE) -f CMakeFiles/2-1.dir/build.make CMakeFiles/2-1.dir/depend
+	$(MAKE) -f CMakeFiles/2-1.dir/build.make CMakeFiles/2-1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target 2-1"
+.PHONY : CMakeFiles/2-1.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-1.dir/rule
+
+# Convenience name for target.
+2-1: CMakeFiles/2-1.dir/rule
+
+.PHONY : 2-1
+
+# clean rule for target.
+CMakeFiles/2-1.dir/clean:
+	$(MAKE) -f CMakeFiles/2-1.dir/build.make CMakeFiles/2-1.dir/clean
+.PHONY : CMakeFiles/2-1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2-5-kadai3.dir
+
+# All Build rule for target.
+CMakeFiles/2-5-kadai3.dir/all:
+	$(MAKE) -f CMakeFiles/2-5-kadai3.dir/build.make CMakeFiles/2-5-kadai3.dir/depend
+	$(MAKE) -f CMakeFiles/2-5-kadai3.dir/build.make CMakeFiles/2-5-kadai3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target 2-5-kadai3"
+.PHONY : CMakeFiles/2-5-kadai3.dir/all
+
+# Include target in all.
+all: CMakeFiles/2-5-kadai3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2-5-kadai3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2-5-kadai3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/2-5-kadai3.dir/rule
+
+# Convenience name for target.
+2-5-kadai3: CMakeFiles/2-5-kadai3.dir/rule
+
+.PHONY : 2-5-kadai3
+
+# clean rule for target.
+CMakeFiles/2-5-kadai3.dir/clean:
+	$(MAKE) -f CMakeFiles/2-5-kadai3.dir/build.make CMakeFiles/2-5-kadai3.dir/clean
+.PHONY : CMakeFiles/2-5-kadai3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2-5-kadai3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-1-gaussian.dir
+
+# All Build rule for target.
+CMakeFiles/1-1-gaussian.dir/all:
+	$(MAKE) -f CMakeFiles/1-1-gaussian.dir/build.make CMakeFiles/1-1-gaussian.dir/depend
+	$(MAKE) -f CMakeFiles/1-1-gaussian.dir/build.make CMakeFiles/1-1-gaussian.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 1-1-gaussian"
+.PHONY : CMakeFiles/1-1-gaussian.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-1-gaussian.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-1-gaussian.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-1-gaussian.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-1-gaussian.dir/rule
+
+# Convenience name for target.
+1-1-gaussian: CMakeFiles/1-1-gaussian.dir/rule
+
+.PHONY : 1-1-gaussian
+
+# clean rule for target.
+CMakeFiles/1-1-gaussian.dir/clean:
+	$(MAKE) -f CMakeFiles/1-1-gaussian.dir/build.make CMakeFiles/1-1-gaussian.dir/clean
+.PHONY : CMakeFiles/1-1-gaussian.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-1-gaussian.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-2.dir
+
+# All Build rule for target.
+CMakeFiles/1-2.dir/all:
+	$(MAKE) -f CMakeFiles/1-2.dir/build.make CMakeFiles/1-2.dir/depend
+	$(MAKE) -f CMakeFiles/1-2.dir/build.make CMakeFiles/1-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 1-2"
+.PHONY : CMakeFiles/1-2.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-2.dir/rule
+
+# Convenience name for target.
+1-2: CMakeFiles/1-2.dir/rule
+
+.PHONY : 1-2
+
+# clean rule for target.
+CMakeFiles/1-2.dir/clean:
+	$(MAKE) -f CMakeFiles/1-2.dir/build.make CMakeFiles/1-2.dir/clean
+.PHONY : CMakeFiles/1-2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-2-kadai.dir
+
+# All Build rule for target.
+CMakeFiles/1-2-kadai.dir/all:
+	$(MAKE) -f CMakeFiles/1-2-kadai.dir/build.make CMakeFiles/1-2-kadai.dir/depend
+	$(MAKE) -f CMakeFiles/1-2-kadai.dir/build.make CMakeFiles/1-2-kadai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 1-2-kadai"
+.PHONY : CMakeFiles/1-2-kadai.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-2-kadai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-2-kadai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-2-kadai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-2-kadai.dir/rule
+
+# Convenience name for target.
+1-2-kadai: CMakeFiles/1-2-kadai.dir/rule
+
+.PHONY : 1-2-kadai
+
+# clean rule for target.
+CMakeFiles/1-2-kadai.dir/clean:
+	$(MAKE) -f CMakeFiles/1-2-kadai.dir/build.make CMakeFiles/1-2-kadai.dir/clean
+.PHONY : CMakeFiles/1-2-kadai.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-2-kadai.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-3-kadai.dir
+
+# All Build rule for target.
+CMakeFiles/1-3-kadai.dir/all:
+	$(MAKE) -f CMakeFiles/1-3-kadai.dir/build.make CMakeFiles/1-3-kadai.dir/depend
+	$(MAKE) -f CMakeFiles/1-3-kadai.dir/build.make CMakeFiles/1-3-kadai.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 1-3-kadai"
+.PHONY : CMakeFiles/1-3-kadai.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-3-kadai.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-3-kadai.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-3-kadai.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-3-kadai.dir/rule
+
+# Convenience name for target.
+1-3-kadai: CMakeFiles/1-3-kadai.dir/rule
+
+.PHONY : 1-3-kadai
+
+# clean rule for target.
+CMakeFiles/1-3-kadai.dir/clean:
+	$(MAKE) -f CMakeFiles/1-3-kadai.dir/build.make CMakeFiles/1-3-kadai.dir/clean
+.PHONY : CMakeFiles/1-3-kadai.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-3-kadai.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-4-2.dir
+
+# All Build rule for target.
+CMakeFiles/1-4-2.dir/all:
+	$(MAKE) -f CMakeFiles/1-4-2.dir/build.make CMakeFiles/1-4-2.dir/depend
+	$(MAKE) -f CMakeFiles/1-4-2.dir/build.make CMakeFiles/1-4-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 1-4-2"
+.PHONY : CMakeFiles/1-4-2.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-4-2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-4-2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-4-2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-4-2.dir/rule
+
+# Convenience name for target.
+1-4-2: CMakeFiles/1-4-2.dir/rule
+
+.PHONY : 1-4-2
+
+# clean rule for target.
+CMakeFiles/1-4-2.dir/clean:
+	$(MAKE) -f CMakeFiles/1-4-2.dir/build.make CMakeFiles/1-4-2.dir/clean
+.PHONY : CMakeFiles/1-4-2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-4-2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1-4_fixed.dir
+
+# All Build rule for target.
+CMakeFiles/1-4_fixed.dir/all:
+	$(MAKE) -f CMakeFiles/1-4_fixed.dir/build.make CMakeFiles/1-4_fixed.dir/depend
+	$(MAKE) -f CMakeFiles/1-4_fixed.dir/build.make CMakeFiles/1-4_fixed.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denjo/opencvgl/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 1-4_fixed"
+.PHONY : CMakeFiles/1-4_fixed.dir/all
+
+# Include target in all.
+all: CMakeFiles/1-4_fixed.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1-4_fixed.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1-4_fixed.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denjo/opencvgl/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1-4_fixed.dir/rule
+
+# Convenience name for target.
+1-4_fixed: CMakeFiles/1-4_fixed.dir/rule
+
+.PHONY : 1-4_fixed
+
+# clean rule for target.
+CMakeFiles/1-4_fixed.dir/clean:
+	$(MAKE) -f CMakeFiles/1-4_fixed.dir/build.make CMakeFiles/1-4_fixed.dir/clean
+.PHONY : CMakeFiles/1-4_fixed.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/1-4_fixed.dir/clean
 
 .PHONY : clean
 

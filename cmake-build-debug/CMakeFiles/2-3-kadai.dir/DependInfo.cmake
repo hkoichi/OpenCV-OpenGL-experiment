@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/denjo/opengl/2-3-kadai.cpp" "/home/denjo/opengl/cmake-build-debug/CMakeFiles/2-3-kadai.dir/2-3-kadai.cpp.o"
+  "/home/denjo/opencvgl/2-3-kadai.cpp" "/home/denjo/opencvgl/cmake-build-debug/CMakeFiles/2-3-kadai.dir/2-3-kadai.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
